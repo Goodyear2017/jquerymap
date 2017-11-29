@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jqm_featureCategories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/jqm_featureCategories.xsd">
+	<category id="state" enabled="true" zoom="true" >
+		<style event="onMouseOut" fillColor="#65a9d6" strokeColor="#ffffff" strokeWidth="1" />
+		<action event="onMouseOver" target="infowindow" infoWindowDiv="jqm_popup" align="mouse,10,10" />
+		<action event="onClick" target="loadChild" url="us_state.php?id=##id##" />
+		<letteredLabel attributeName="label_map" textStyle="label" />
+	</category>
+	<category id="nostate" enabled="true" zoom="false" >
+		<style event="onMouseOut" fillColor="#7ec2e9" strokeColor="#ffffff" strokeWidth="1" />
+		<action event="onMouseOver" target="infowindow" infoWindowDiv="jqm_popup" align="mouse,10,10" />
+		<letteredLabel attributeName="label_map" textStyle="label" />
+	</category>
+</jqm_featureCategories>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jqm_featureCategories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/jqm_featureCategories.xsd">
+	<category id="county" enabled="true" zoom="true" >
+		<style event="onMouseOut" fillColor="#65a9d6" strokeColor="#ffffff" strokeWidth="1" />
+		<action event="onMouseOver" target="infowindow" infoWindowDiv="jqm_popup" align="mouse,10,10" />
+	</category>
+	<category id="nocounty" enabled="true" zoom="false" >
+		<style event="onMouseOut" fillColor="#7ec2e9" strokeColor="#ffffff" strokeWidth="1" />
+		<action event="onMouseOver" target="infowindow" infoWindowDiv="jqm_popup" align="mouse,10,10" />
+	</category>
+</jqm_featureCategories>

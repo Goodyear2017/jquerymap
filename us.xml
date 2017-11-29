@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jqm_theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/jqm_theme.xsd" 
+	id="us_states" shapesUrl="../../maps/fm-us.xml" backgroundImageUrl="" 
+	reloadInterval="" reloadFeatures="false" reloadFeatureCategories="false" reloadMarkers="false" reloadMarkerCategories="false" 
+	featuresUrl="us_states_features.php" featureCategoriesUrl="us_states_feature_categories.xml" 
+	markersUrl="us_states_markers.php" markerCategoriesUrl="us_states_marker_categories.xml">
+	<platformFunctionality id="default" calculatedMapAreas="false" onMouseOverCalculateInterval="" displayPolygons="true" />
+</jqm_theme>
